@@ -22,6 +22,9 @@ AWS's Access Advisor API enables organizations to report on what AWS services a 
 * IAM:GetServiceLastAccessedDetails
 
 ## Setup
+
+Use this [blog post](https://journeyofthegeek.com/2019/07/08/visualizing-aws-logging-data-in-azure-monitor-part-2/) to setup the Azure side of the integration.
+
 Ensure the appropriate version of Boto3 and Botocore are installed. A sample parameters file is provided with the repository.
 
 python service_last_accessed.py --parameterfile parameters.json [--logfile]
