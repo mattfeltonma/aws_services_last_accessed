@@ -1,0 +1,5 @@
+{
+    "WorkspaceId":"YOUR_WORKSPACE_ID",
+    "WorkspaceKey":"YOUR_WORKSPACE_KEY",
+    "LogName":"aws_services_last_accessed"
+}
