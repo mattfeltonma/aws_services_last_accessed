@@ -4,7 +4,7 @@ This solution uses [AWS's Access Advisor's API](https://docs.aws.amazon.com/IAM/
 ## What problem does this solve?
 An effective way to mitigate risk is abide by least privilege and limit a human or non-human to only the permissions required.  These required permissions may change over time and new permissions may be required.  Often old permissions are not removed resulting in access creep.  Additionally, when starting to the journey to the cloud, organizations often provide overly permissive permissions because roles and responsibilities are not yet clear.
 
-AWS's Access Advisor API enables organizations to report on what AWS services a security principal has used when when the service was last used.  This information can be analyzed to identify permissions to services that may no longer be required.  Azure Monitor provides a powerful and simple to use tool to both take in the data and analyze it.
+AWS's Access Advisor API enables organizations to report on what AWS services a security principal has used and when the service was last used.  This information can be analyzed to identify permissions to services that may no longer be required.  Azure Monitor provides a powerful and simple to use tool to both take in the data and analyze it.
 
 ## Requirements
 
